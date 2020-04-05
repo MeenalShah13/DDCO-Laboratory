@@ -1,0 +1,404 @@
+$date
+	Sun Aug 25 20:39:36 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module tb $end
+$var wire 1 ! cout $end
+$var wire 4 " o [3:0] $end
+$var reg 1 # cin $end
+$var reg 1 $ clk $end
+$var integer 32 % i [31:0] $end
+$var reg 4 & i0 [3:0] $end
+$var reg 4 ' i1 [3:0] $end
+$var reg 1 ( reset $end
+$scope module u0 $end
+$var wire 4 ) A [3:0] $end
+$var wire 4 * B [3:0] $end
+$var wire 1 + Cin $end
+$var wire 1 ! Cout $end
+$var wire 4 , Sum [3:0] $end
+$var wire 3 - transferC [2:0] $end
+$scope module g1 $end
+$var wire 1 . a $end
+$var wire 1 / b $end
+$var wire 1 + c $end
+$var wire 1 0 fcarry_out $end
+$var wire 1 1 fsum $end
+$var wire 1 2 half_carry_1 $end
+$var wire 1 3 half_carry_2 $end
+$var wire 1 4 half_sum_1 $end
+$scope module g1 $end
+$var wire 1 . a $end
+$var wire 1 / b $end
+$var wire 1 2 carry $end
+$var wire 1 4 sum $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 4 a $end
+$var wire 1 + b $end
+$var wire 1 3 carry $end
+$var wire 1 1 sum $end
+$upscope $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 7 c $end
+$var wire 1 8 fcarry_out $end
+$var wire 1 9 fsum $end
+$var wire 1 : half_carry_1 $end
+$var wire 1 ; half_carry_2 $end
+$var wire 1 < half_sum_1 $end
+$scope module g1 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 : carry $end
+$var wire 1 < sum $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 < a $end
+$var wire 1 7 b $end
+$var wire 1 ; carry $end
+$var wire 1 9 sum $end
+$upscope $end
+$upscope $end
+$scope module g3 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 ? c $end
+$var wire 1 @ fcarry_out $end
+$var wire 1 A fsum $end
+$var wire 1 B half_carry_1 $end
+$var wire 1 C half_carry_2 $end
+$var wire 1 D half_sum_1 $end
+$scope module g1 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 B carry $end
+$var wire 1 D sum $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 D a $end
+$var wire 1 ? b $end
+$var wire 1 C carry $end
+$var wire 1 A sum $end
+$upscope $end
+$upscope $end
+$scope module g4 $end
+$var wire 1 E a $end
+$var wire 1 F b $end
+$var wire 1 G c $end
+$var wire 1 ! fcarry_out $end
+$var wire 1 H fsum $end
+$var wire 1 I half_carry_1 $end
+$var wire 1 J half_carry_2 $end
+$var wire 1 K half_sum_1 $end
+$scope module g1 $end
+$var wire 1 E a $end
+$var wire 1 F b $end
+$var wire 1 I carry $end
+$var wire 1 K sum $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 K a $end
+$var wire 1 G b $end
+$var wire 1 J carry $end
+$var wire 1 H sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+b0 -
+b0 ,
+0+
+b0 *
+b0 )
+1(
+b0 '
+b0 &
+bx %
+0$
+0#
+b0 "
+0!
+$end
+#50
+1$
+#60
+b0 %
+#100
+0$
+#125
+0(
+#150
+1$
+#160
+11
+b1 "
+b1 ,
+14
+1/
+b1 %
+b1 '
+b1 *
+#200
+0$
+#250
+1$
+#260
+19
+17
+01
+b10 "
+b10 ,
+10
+b1 -
+04
+12
+1.
+b10 %
+b1 &
+b1 )
+#300
+0$
+#350
+1$
+#360
+1H
+1G
+1@
+1C
+1?
+18
+b111 -
+09
+1;
+0A
+b1000 "
+b1000 ,
+1<
+1D
+15
+1=
+b11 %
+b111 &
+b111 )
+#400
+0$
+#450
+1$
+#460
+0H
+0G
+0@
+1A
+0C
+0?
+08
+19
+0;
+07
+11
+b111 "
+b111 ,
+00
+b0 -
+14
+02
+0.
+05
+0=
+16
+1>
+b100 %
+b0 &
+b0 )
+b111 '
+b111 *
+#500
+0$
+#550
+1$
+#560
+1H
+1?
+1G
+18
+1A
+1@
+17
+0<
+1:
+0D
+1B
+10
+b111 -
+15
+1=
+01
+b1110 "
+b1110 ,
+13
+b101 %
+b110 &
+b110 )
+1#
+1+
+#600
+0$
+#650
+1$
+#660
+1?
+1G
+1!
+11
+03
+09
+1;
+18
+0A
+1C
+1@
+b111 -
+0H
+b1 "
+b1 ,
+1J
+04
+12
+1<
+0:
+1D
+0B
+1K
+1.
+06
+0>
+1F
+b110 %
+b11 &
+b11 )
+b1001 '
+b1001 *
+#700
+0$
+#750
+1$
+#760
+1E
+0F
+b111 %
+b1111 &
+b1111 )
+b1 '
+b1 *
+#800
+0$
+#850
+1$
+#860
+0!
+1H
+0J
+19
+0;
+1A
+0C
+0K
+0<
+1:
+0D
+1B
+0E
+16
+1>
+01
+b1110 "
+b1110 ,
+b1000 %
+b111 &
+b111 )
+b111 '
+b111 *
+0#
+0+
+#900
+0$
+#950
+1$
+#1000
+0$
+#1050
+1$
+#1100
+0$
+#1150
+1$
+#1200
+0$
+#1250
+1$
+#1300
+0$
+#1350
+1$
+#1400
+0$
+#1450
+1$
+#1500
+0$
+#1550
+1$
+#1600
+0$
+#1650
+1$
+#1700
+0$
+#1750
+1$
+#1800
+0$
+#1850
+1$
+#1860
