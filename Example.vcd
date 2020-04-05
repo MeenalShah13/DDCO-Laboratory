@@ -1,0 +1,50 @@
+$date
+	Thu Sep 05 00:42:29 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_p2 $end
+$var wire 1 ! D $end
+$var wire 1 " E $end
+$var wire 1 # F $end
+$var wire 1 $ G $end
+$var wire 1 % H $end
+$var wire 1 & I $end
+$var wire 1 ' J $end
+$var reg 1 ( A $end
+$var reg 1 ) B $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+1'
+0&
+1%
+1$
+0#
+1"
+0!
+$end
+#20
+1#
+0%
+1&
+0'
+1)
+#40
+0"
+0)
+1(
+#60
+1!
+0$
+0&
+1'
+1)
+#200
